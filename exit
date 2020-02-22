@@ -1,0 +1,40 @@
+[33mcommit 38a6a0f011c3195d23f2703f71739bedbb695448[m[33m ([m[1;36mHEAD -> [m[1;32missue-2[m[33m)[m
+Author: Sheyla Urbina <sheyla.ulopez@gmail.com>
+Date:   Sat Feb 22 10:51:34 2020 -0600
+
+    feat(package.json): mejora de commits
+    
+    Se configuro una libreria para estandarizar los commits
+
+[33mcommit 2af0e09f308cc663b080c4be5b2ece63a5b97e5e[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: cb5893e d53a3d1
+Author: SheylaUrbina <61355374+SheylaUrbina@users.noreply.github.com>
+Date:   Sat Feb 22 10:16:46 2020 -0600
+
+    Merge pull request #1 from SheylaUrbina/issue-1
+    
+    se quito historia del boton (issue-1)
+
+[33mcommit d53a3d1e3bb52e9d9ffb56295921ba4f1be056be[m[33m ([m[1;31morigin/issue-1[m[33m, [m[1;32missue-1[m[33m)[m
+Author: Sheyla Urbina <sheyla.ulopez@gmail.com>
+Date:   Sat Feb 22 10:12:40 2020 -0600
+
+    se quito historia del boton
+
+[33mcommit cb5893e359d2ea9926ffaafd39451ab84fe596f9[m
+Author: Sheyla Urbina <sheyla.ulopez@gmail.com>
+Date:   Sat Feb 22 10:00:57 2020 -0600
+
+    se configuro storybook
+
+[33mcommit 4bda9af3948802d5772fee9b7623354a0b44a6de[m
+Author: Sheyla Urbina <sheyla.ulopez@gmail.com>
+Date:   Sat Feb 22 09:24:16 2020 -0600
+
+    cambios
+
+[33mcommit 227b9f3be1c8c33b6e309251143350cd0546ce78[m
+Author: Sheyla Urbina <sheyla.ulopez@gmail.com>
+Date:   Wed Feb 19 14:43:40 2020 -0600
+
+    Initial commit from nwb v0.23.0
