@@ -1,6 +1,6 @@
 {
   "name": "components-sheyla",
-  "version": "7.0.0",
+  "version": "1.0.0",
   "description": "components-sheyla React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -21,9 +21,12 @@
     "storybook": "start-storybook -p 9000",
     "build-storybook": "build-storybook -c .storybook",
     "commitizen": "commitizen",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "publish": "npm run build && semantic-release"
   },
   "dependencies": {
+    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/git": "^9.0.0",
     "classnames": "^2.2.6",
     "react-icons": "^3.9.0",
     "react-loader-spinner": "^3.1.5",
@@ -49,7 +52,8 @@
     "husky": "^4.2.3",
     "nwb": "0.23.x",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "semantic-release": "^17.0.4"
   },
   "author": "",
   "homepage": "",
@@ -63,9 +67,9 @@
       "path": "cz-conventional-changelog"
     }
   },
-   "husky": {
-     "hooks": {
-       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-     }
-   }
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
